@@ -1,0 +1,11 @@
+This is the cookbook for Human activity recognition data set. 
+Before running run_analysis.R, please make sure that you have unzipped downloaded dataset and also put run_analysis.R in the same directory.
+
+The steps in run_analysis.R are as follows.
+Read in all the training and testing data.
+Step1:merge training and testing data. 10299 records are obtained.
+Step2: extract only measurements on the mean and standard deviation for each measurement
+Step3 & Step4: descriptive activity names "walk","walk up","walk down","sit","stand","lay"
+Step5:Creates a second, independent tidy data set with the average. 180 observations remains.
+
+Finally, After running run_analysis.R, the message “Data is successfully saved in summary_data.csv” will show in the command window of RStudio. The final data set is saved as summary_data.csv.
